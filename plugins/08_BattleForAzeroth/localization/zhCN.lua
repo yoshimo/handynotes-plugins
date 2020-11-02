@@ -716,3 +716,7 @@ L["secret_supply_chest"] = "秘密补给箱"
 L["secret_supply_chest_note"] = "当阵营入侵激活时，秘密补给箱可能短时间出现在这些位置之一。"
 L["options_icons_secret_supplies"] = "秘密补给箱"
 L["options_icons_secret_supplies_desc"] = "显示 {achievement:13317} 成就中秘密补给箱的位置。"
+
+L["squirrels_note"] = "使用 （"..ns.color.Orange('/love（/爱）').."） 这个小动物。"
+L["options_icons_squirrels"] = "{achievement:14730}"
+L["options_icons_squirrels_desc"] = "显示 {achievement:14730} 成就中小动物的位置。"

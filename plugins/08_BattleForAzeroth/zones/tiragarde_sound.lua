@@ -983,3 +983,33 @@ bor.nodes[72706920] = Citizen({
         Toy({item=166247}) -- Citizens Brigade Whistle
     }
 }) -- Russel the Bard
+
+-------------------------------------------------------------------------------
+------------------- TO ALL THE SQUIRRELS I SET SAIL TO SEE --------------------
+-------------------------------------------------------------------------------
+local ToAlltheSquirrels = Class('ToAlltheSquirrels', Collectible, {
+    icon=237182,
+    group=ns.groups.SQUIRRELS
+})
+
+map.nodes[84807780] = ToAlltheSquirrels({
+    id=126546,
+    note=L["squirrels_note"],
+    rewards={
+        Achievement({id=14730, criteria=50238})
+    },
+    pois={
+        POI({86408120})
+    }
+}) -- Fluttering Softwing
+
+map.nodes[88207280] = ToAlltheSquirrels({
+    id=126519,
+    note=L["squirrels_note"],
+    rewards={
+        Achievement({id=14730, criteria=50240})
+    },
+    pois={
+        POI({88207800, 78008060})
+    }
+}) -- Tiragarde Gull
