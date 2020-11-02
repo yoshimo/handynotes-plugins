@@ -809,7 +809,7 @@ map.nodes[52758373] = ToAlltheSquirrels({
     id=134700,
     note=L["squirrels_note"],
     rewards={
-        Achievement({id=14730, criteria=50243})
+        Achievement({id=14730, criteria=50247})
     },
     pois={
         POI({52108640, 50008680})
